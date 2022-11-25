@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        body{
+            
+            margin-top: 200px;
+            margin-left: 500px;
+        }
+    img{
+      border: 15px solid transparent; 
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+      border-image: -webkit-gradient(
+        linear,
+        right top,
+        left top,
+        from(pink),
+        to(red)
+      );
+      border-image: linear-gradient(
+        right,
+        red,
+        pink
+      );
+      border-image-slice: 1;
+      border-radius: 50%;
+    }
+   
+    </style> -->
+    <style>
+        body{
+            background-color: aqua;
+        }
+    img{
+  width: 200px;
+  height: 200px;
+  border: double 10px transparent;
+  border-radius: 50%; 
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  margin-right: 30px;  
+  margin-bottom: 30px;
+}
+.story{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.team{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(#f00,#3020ff, rgb(243, 73, 101));
+    position: absolute;
+}
+.team1{
+    width: 50px;
+    height: 50px;
+    border: 8px solid white;
+    border-radius: 20%;
+    margin: auto;
+    position: relative;
+    top: 16px;
+}
+.team2{
+    width: 15px;
+    height: 15px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 13px;
+    margin-left: 8x;
+}
+.team4{
+    width: 0px;
+    height: 0px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -16px;
+    margin-left: 15px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="team">
+        <div class="team1">   
+            <div class="team2">
+                <div class="team4">
+
+                </div>
+            </div>
+        </div>    
+    </div>
+<div class="story">    
+    <div>
+    <img src="Assets/images/1.jpg" alt="" width="500px" height="500px">
+    <img src="Assets/images/2.jpg" alt="" width="500px" height="500px">
+    <img src="Assets/images/3.jpg" alt="" width="500px" height="500px">
+    <img src="Assets/images/4.jpg" alt="" width="500px" height="500px">
+    </div>
+</div>  
+</body>
+</html>

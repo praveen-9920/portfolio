@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .main{
+           width: 400px;
+           height: 800px;
+           border: 1px solid transparent;
+           border-radius: 15px ;
+           background-image: linear-gradient(#f00,#3020ff, rgb(243, 73, 101));
+           margin: auto; 
+        }
+        .label{
+            font-family: Brush Script MT;
+            color: white;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            padding: 125px;
+            font-size: 20px;
+        }
+        .user{
+            margin-left: 40px;
+            margin-top: -120px;
+           
+        }
+        input{
+            width: 300px;
+            padding: 10px 10px ;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        button{
+            width: 300px;
+            padding: 10px 10px ;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            margin-top: 45px;
+            margin-left: 45px;
+            color: white;
+            background-color: rgb(63, 177, 239);
+        }
+        hr{
+            width: 40%;
+        }
+        .hr{
+            display: flex;
+            margin-top: 25px;
+        }
+        span{
+            color: white;
+        }
+        #forget{
+            margin-left: 210px;
+            font-size: 13px;
+        }
+        .Facebook{
+            font-family: Bahnschrift SemiBold;
+            color: white;
+            margin-top: 30px;
+            margin-left: 120px;
+        }
+        .last{
+            width: 143%;
+            margin-left: -121px;
+            margin-top: 200px;
+        }
+        #facebook{
+            font-size: 25px; 
+        }
+        .Account{
+            color: white;
+            margin-left: 120px;
+            font-family: Bahnschrift semi;
+        }
+        .Signup{
+            color: white;
+            font-family: Bahnschrift SemiBold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="label">
+            <h1>
+                Instagram
+            </h1>
+        </div>
+        <div class="user">
+            <input type="text" placeholder="Phone number,username or email address"><br><br>
+            <input type="text" placeholder="Password"> <br><br>
+            <span id="forget">Forgotten Password?</span>
+        </div>
+        <form action="https://www.instagram.com/">
+        <button type="submit">Log In </button>
+        </form>
+        <div class="hr">
+            <hr>
+            <span>OR</span>
+            <hr>
+        </div>
+        <div class="Facebook">
+            <i class="fa fa-facebook-square" aria-hidden="true" id="facebook"></i>
+Log in with Facebook
+            <hr class="last">
+        </div>
+        <div class="Account">
+            Don't have an account? <span class="signup"> <b> Sign Up</b></span>
+        </div>
+        
+    </div>
+</body>
+</html>
